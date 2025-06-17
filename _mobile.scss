@@ -1,0 +1,299 @@
+@media(max-width:767px) {
+   * 
+   body {
+    margin: 0;
+    padding: 0;
+    
+   }
+        
+    .center {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+   
+    .head__top {
+        align-items: center;
+    }
+    .title {
+        width: 262px;
+        height: 196px;
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 40px;
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 147px;
+    }
+    .name {
+        width: 296px;
+        height: 60px;
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0px;
+        text-align: center;
+        vertical-align: middle;
+        margin-left: 23.5px;
+        line-height: 100%;
+    }
+    .lets {
+        width: 285px;
+        height: 55px;
+        padding-top: 9px;
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 142%;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-top: 36px;
+        margin-bottom: 131px;
+}
+    .star {
+        width: 18px;
+        height: 18px;
+        top: 557px;
+        left: 237px;
+}
+    .stars {
+        width: 39px;
+        height: 41px;
+        top: 580px;
+        left: 304px;
+}
+    .navigation {
+        height: 51px;
+        border-width: 0.54px;
+        padding-right: 24px;
+        border: 0.54px solid #FFFFFF33;
+        background-image: url(./img/fr1.svg);
+        overflow: hidden;
+    }
+   .bigs {
+        width: 223px;
+        height: 238px;
+        top: -40.43px;
+        left: 489.81px;
+        position: -108.68 deg;
+        position: absolute;
+    
+    }
+    .big {
+        width: 35px;
+        height: 35px;
+}
+    .biges {
+        display: none;
+    }
+    .big__one {
+        top: 0px;
+        right: 0px;
+        position: absolute;
+        display: block;
+    }
+    .small {
+        width: 21px;
+        height: 21px;
+    }
+    .min {
+        height: 3740px;
+        padding-bottom: 9px;
+       
+    }
+    .top__titles {
+        width: 250px;
+        height: 49px;
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 40px;
+        letter-spacing: 0px;
+        vertical-align: middle;
+        padding-top: 48px;
+        padding-bottom: 48px;
+}
+    .top {
+        display: none;
+    }
+    .min__card {
+        width: auto;
+        height: 284px;
+     }
+    .min__cards {
+        gap: 24px;
+    }
+    .min__games {
+        min-width: 343px;
+        height: 528px;
+        box-shadow: 0px 11.44px 38.34px -6.87px #00000021;
+        flex-direction: column-reverse;
+    }
+    .min__games_one {
+        min-width: 343px;
+        height: 567px;
+        border-radius: 30px;
+        box-shadow: 0px 11.44px 38.34px -6.87px #00000021;
+        flex-direction: column-reverse;
+    }
+    .min__games_to {
+        min-width: 343px;
+        border-radius: 30px;
+        box-shadow: 0px 11.44px 38.34px -6.87px #00000021;
+        flex-direction: column-reverse;
+    }
+    .min__game {
+        min-width: 343px;
+        height: 568px;
+        box-shadow: 0px 11.44px 38.34px -6.87px #00000021;
+        flex-direction: column;
+    }
+    .min__game_one {
+        min-width: 343px;
+        flex-direction: column;
+        box-shadow: 0px 11.44px 38.34px -6.87px #00000021;
+    }   
+
+    
+    .min__part {
+        width: auto;
+        height: 243px;
+        padding-left: 29px;
+        padding-right: 29px;
+        display: flex;
+        flex-direction: column;
+    }
+    .min__parts {
+        width: auto;
+        height: 282px;
+        padding-left: 29px;
+        padding-right: 29px;
+        display: flex;
+        flex-direction: column;
+    }
+     .min__parts_one {
+        width: auto;
+        height: 322px;
+        padding-left: 29px;
+        padding-right: 29px;
+        display: flex;
+        flex-direction: column;
+    }
+     .min__parts_to {
+        height: 342px;
+        padding-left: 29px;
+        padding-right: 29px;
+        display: flex;
+        flex-direction: column;
+    }
+    .min__names {
+        width: 284px;
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 32px;
+        letter-spacing: 0px;
+        vertical-align: middle;
+        padding-top: 29px;
+        
+    }
+    .min__names_one {
+        width: 284px;
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 32px;
+        vertical-align: middle;
+        padding-top: 29px;
+       
+    }
+    .min__name {
+        width: 284px;
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 32px;
+        letter-spacing: 0px;
+        vertical-align: middle;
+        padding-top: 29px;
+    }
+    .min__name_one {
+        width: 284px;
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 32px;
+        vertical-align: middle;
+        padding-top: 29px;
+    }
+    .min__try {
+        width: 240px;
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0px;
+        vertical-align: middle;
+        line-height: 100%;
+        padding-top: 16px;
+        padding-bottom: 32px;
+    }
+    .min__try_one {
+        width: 275px;
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        vertical-align: middle;
+        padding-top: 16px;
+        padding-bottom: 32px;
+
+    }
+    .min__try_to {
+        width: 285px;
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        vertical-align: middle;
+        padding-top: 16px;
+        padding-bottom: 32px;
+
+    }
+    .min__trys {
+        width: 285px;
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0px;
+        vertical-align: middle;
+        line-height: 100%;
+
+    }
+    .min__play {
+        min-width: 285px;
+        height: 55px;
+        padding-top: 10px;
+        padding-bottom: 32px;
+}
+   
+    button {
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 142%;
+        text-align: center;
+
+    }
+    .footer {
+        height: 100px;
+    } 
+    .footer__law {
+        width: 190px;
+        height: 20px;
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        padding-left: 63px;
+        padding-top: 40px;
+        margin-left: 6px;
+        margin-bottom: 40px;
+    }   
+}

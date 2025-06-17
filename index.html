@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" 
+  rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  </head>
+<body>
+  <div class="head center">
+      <div class="head__top">
+        <img class="small" src="./img/Star 2.svg" alt="star">
+        <img class="big" src="./img/Star 2.svg" alt="star">
+        <h1 class="title">Добро пожаловать на мой сайт мини-игры</h1>
+        <p class="name">Тебе предстоит пройти несколько увлекательных игр. Если готов, нажимай «Поехали!» и приступай.</p>
+        <a href="#top"><button class="lets">Поехали!</button></a>
+        <img class="star" src="./img/Star 5.svg" alt="star">
+        <img class="stars" src="./img/Star 4.svg" alt="star">
+        <img class="biges" src="./img/Group 1.svg" alt="Пиктер">
+        <img class="big__one" src="./img/bigest.svg" alt="Пиктер">
+      </div>
+    </div>
+        <section class="navigation center"></section>
+    <div id="top">
+      <div class="top center">
+        <h2 class="top__title">Об играх</h2>
+        <p class="names">В моей коллекции представлено 6 игр на разные темы.Игры несложные — в них может поиграть каждый.
+          Все игры доступны для пользования.</p>
+          <img class="top__s" src="./img/Star 1.svg" alt="star">
+        <div class="top__game">
+          <div class="top__pisk">
+            <a href="#game1" class="top__card">
+              <div class="top__card">
+                <img src="./img/1 (2).svg" alt="Игра1" class="games">
+                <div class="gamers">
+                  <p class="game__namber">Игра № 1</p>
+                  <p class="top__link">Угадай число</p>
+                </div>
+              </div>
+            </a>
+            <a href="#game4" class="top__card">
+              <div class="top__card_one">
+                <img src="img/game.png" alt="Игра4" class="games">
+                <div class="game">
+                  <p class="game__namber">Игра № 4</p>
+                  <p class="top__links">Камень, ножницы, бумага</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="top__pisks">
+            <a href="#game2" class="top__cards">
+              <div class="top__cards">
+                <img src="img/2.svg" alt="Игра2" class="games">
+                <div class="gamer">
+                  <p class="game__namber">Игра №2</p>
+                  <p class="top__link">Простая арифметика</p>
+                </div>
+              </div>
+            </a>
+            <a href="#game5" class="top__cards">
+              <div class="top__cards">
+                <img src="img/5.svg" alt="Игра5" class="games">
+                <div class="gamer">
+                  <p class="game__namber">Игра №5</p>
+                  <p class="top__link">Простая викторина</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="top__pisksi">
+            <a href="#game3" class="top__card">
+              <div class="top__card">
+                <img src="img/3.svg" alt="Игра3" class="games">
+                <div class="gamers">
+                  <p class="game__namber">Игра №3</p>
+                  <p class="top__link">Переверни текст</p>
+                </div>
+              </div>
+            </a>
+            <a href="#game6" class="top__card">
+              <div class="top__card">
+                <img src="img/6.svg" alt="Игра6" class="games">
+                <div class="game">
+                  <p class="game__namber">Игра №6</p>
+                  <p class="top__link">Генератор случайных цветов</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mingame">
+    <div class="min center">
+   <h2 class="top__titles">Мини-игры</h2>
+   <div class="min__cards">
+        <div id="game1">
+        <div class="min__games">
+        <div class="min__part">
+           <p class="min__names">Угадай число</p>
+           <p class="min__try">Попробуйте угадать случайное число от 1 до 100.</p>
+            <a href="#game1"></a>
+            <button onclick="startGame1()" class="min__play">Играть!</button>
+          </div>
+            <img class="min__card" src="./img/min1.svg" alt="cart">
+        </div>
+        </div>
+        <div id="game2">
+        <div class="min__game">
+            <img class="min__card" src="./img/min2.svg" alt="cart">
+          <div class="min__parts">
+              <p class="min__name">Простая арифметика</p>
+              <p class="min__try">Попробуйте решить простые арифметические задачи.</p>
+              <a href="#game2"></a>
+              <button onclick="runQuiz()" class="min__play">Играть!</button>
+          </div>
+        </div>
+        </div>
+        <div id="game3">
+        <div class="min__games_one">
+        <div class="min__parts">
+            <p class="min__names_one">Переверни текст</p>
+            <p class="min__try_one">Попробуй ввести текст, который будет перевернут.</p>
+            <a href="#game3"></a>
+            <button onclick="flipText()" class="min__play">Играть!</button>
+          </div>
+            <img class="min__card" src="./img/min3.svg" alt="cart">
+          </div>
+        </div>
+        <div id="game5">
+          <div class="min__game">
+            <img class="min__card" src="./img/min4.svg" alt="cart">
+            <div class="min__parts">
+              <p class="min__names_one"> Простая викторина</p>
+              <p class="min__try_to">Отвечайте на вопросы победившими вариантами ответов.</p>
+              <a href="#game5"></a>
+              <button onclick="startQuiz()" class="min__play">Играть!</button>
+            </div>
+          </div>
+          </div>
+        <div id="game4">
+        <div class="min__games_to">
+        <div class="min__parts_one">
+            <p class="min__name_one">Камень, ножницы, бумага</p>
+            <p class="min__try_one">Сыграй в популярную игру против компьютера.</p>
+            <a href="#game4"></a>
+            <button onclick=" playGame()" class="min__play">Играть!</button>
+          </div>
+          <img class="min__card" src="./img/game.png" alt="cart">
+        </div>
+        </div>
+       <div id="game6">
+        <div class="min__game_one">
+          <img class="min__card" src="./img/min6.svg" alt="cart">
+          <div class="min__parts_to">
+            <p class="min__name_one">Генератор случайных цветов</p>
+            <p class="min__trys">Игра, в которой при нажатии на кнопку фон страницы меняется на случайный.</p>
+            <a href="#game6"></a>
+            <button onclick="changeBlockColor()" class="min__play">Играть!</button>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+    <footer class="footer center">
+    <div class="footer__law">Все права защищены.</div>
+    </footer>
+    <script src="games.js"></script>
+  
+  </body>
+</html>
